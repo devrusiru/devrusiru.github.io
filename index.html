@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Rusiru Jayawardhana</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+</head>
+<body class="animate__animated animate__fadeIn">
+    <svg class="menu-svg" preserveAspectRatio="xMidYMid slice" viewBox="10 10 80 80">
+        <defs>
+        </defs>
+        <path fill="#232323" class="out-top" d="M37-5C25.1-14.7,5.7-19.1-9.2-10-28.5,1.8-32.7,31.1-19.8,49c15.5,21.5,52.6,22,67.2,2.3C59.4,35,53.7,8.5,37-5Z"/>
+        <path fill="#000" class="in-top" d="M20.6,4.1C11.6,1.5-1.9,2.5-8,11.2-16.3,23.1-8.2,45.6,7.4,50S42.1,38.9,41,24.5C40.2,14.1,29.4,6.6,20.6,4.1Z"/>
+        <path fill="#232323" class="out-bottom" d="M105.9,48.6c-12.4-8.2-29.3-4.8-39.4.8-23.4,12.8-37.7,51.9-19.1,74.1s63.9,15.3,76-5.6c7.6-13.3,1.8-31.1-2.3-43.8C117.6,63.3,114.7,54.3,105.9,48.6Z"/>
+        <path fill="#000" class="in-bottom" d="M102,67.1c-9.6-6.1-22-3.1-29.5,2-15.4,10.7-19.6,37.5-7.6,47.8s35.9,3.9,44.5-12.5C115.5,92.6,113.9,74.6,102,67.1Z"/>
+    </svg>
+    <canvas>
+    </canvas>
+    <div id="circle"></div>
+    
+    <div class="nav">
+        <a href="index.html" class="nav-a"><svg stroke="#fff" stroke-width="2" class="text-line" >
+            <text x="50%" dominant-baseline="middle" text-anchor="middle" y="50%">DR</text>
+        </svg></a>
+    
+            <label class="hamburger">
+                <input type="checkbox">
+                <svg class="hamburger-svg" viewBox="0 0 32 32">
+                  <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                  <path class="line" d="M7 16 27 16"></path>
+                </svg>
+              </label>
+    </div>
+    
+
+    <div class="wrapper">
+        <div class="animate__animated animate__pulse">
+            <h2 >I am <span class="auto-input"></span></h2> 
+            <img class="h1-title"src="img/DRH.svg">
+            
+        </div>
+        
+    </div>
+
+    <div class="menu">
+        <svg class="menu-svg" preserveAspectRatio="xMidYMid slice" viewBox="10 10 80 80">
+            <defs>
+            </defs>
+            <path fill="#000" class="out-top" d="M37-5C25.1-14.7,5.7-19.1-9.2-10-28.5,1.8-32.7,31.1-19.8,49c15.5,21.5,52.6,22,67.2,2.3C59.4,35,53.7,8.5,37-5Z"/>
+            <path fill="#0d0d0d" class="in-top" d="M20.6,4.1C11.6,1.5-1.9,2.5-8,11.2-16.3,23.1-8.2,45.6,7.4,50S42.1,38.9,41,24.5C40.2,14.1,29.4,6.6,20.6,4.1Z"/>
+            <path fill="#000" class="out-bottom" d="M105.9,48.6c-12.4-8.2-29.3-4.8-39.4.8-23.4,12.8-37.7,51.9-19.1,74.1s63.9,15.3,76-5.6c7.6-13.3,1.8-31.1-2.3-43.8C117.6,63.3,114.7,54.3,105.9,48.6Z"/>
+            <path fill="#0d0d0d" class="in-bottom" d="M102,67.1c-9.6-6.1-22-3.1-29.5,2-15.4,10.7-19.6,37.5-7.6,47.8s35.9,3.9,44.5-12.5C115.5,92.6,113.9,74.6,102,67.1Z"/>
+        </svg>
+
+        <div class="menu-wrapper">
+            <div class="menu-list-wrapper">
+                <div class="menu-list animate__animated animate__fadeInDown "><span class="menu-span">01.  </span><span class="menu-span">01.  </span><a href="index.html">Welcome</a></div>
+                <div class="menu-list animate__animated animate__fadeInLeft "><span class="menu-span">02.  </span><span>02.  </span class="menu-span"><a href="project.html">Projects</a></div>
+                <div class="menu-list animate__animated animate__fadeInRight "><span class="menu-span">03.  </span><span>03.  </span class="menu-span"><a href="whoiam.html">Who I Am</a></div>
+                <div class="menu-list animate__animated animate__fadeInUp "><span class="menu-span">04.  </span><span>04.  </span class="menu-span"><a href="reachme.html">Reach Me</a></div>
+            </div>
+        </div>
+    </div>   
+    
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-105392568-1', 'auto');
+        ga('send', 'pageview');     
+    </script>
+    <script src="dat.gui.min.js"></script>
+    <script src="script.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input",{
+            strings: ["Frontend Developer", "Web Developer", "UI/UX Designer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+        });
+    </script>
+</body>
+</html>
