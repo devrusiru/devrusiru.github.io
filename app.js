@@ -197,7 +197,7 @@ $(".uil-google").hover(function(){
   $('.project-out-bottom').toggleClass("gm");
 });
 
-$(".uil-phone-volume").hover(function(){
+$(".uil-linkedin-alt").hover(function(){
   $('.i6').toggleClass("animate__animated animate__rubberBand");
   $('.project-out-top').toggleClass("cm");
   $('.project-out-bottom').toggleClass("cm");
