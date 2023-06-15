@@ -166,6 +166,11 @@ $(document).ready(function(){
     $('.project-out-top').toggleClass("cpro6");
     $('.project-out-bottom').toggleClass("cpro6");
   });
+    
+   $(".pro7").hover(function(){
+    $('.project-out-top').toggleClass("cpro7");
+    $('.project-out-bottom').toggleClass("cpro7");
+  });
 
   $(".uil-facebook-f").hover(function(){
     $('.i1').toggleClass("animate__animated animate__rubberBand");
