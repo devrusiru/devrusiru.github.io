@@ -353,6 +353,12 @@ h2 {
 		fill: #83a732;
 		transition: ease 1s;
 	}
+	
+	.cpro7 {
+		fill: #fcb120;
+		transition: ease 1s;
+	}
+
 	.project-out-top, .project-out-bottom{
 		transition: ease 1s;
 	}
