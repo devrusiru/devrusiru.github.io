@@ -423,6 +423,9 @@ h2 {
 		.hamburger svg{
 			height: 2.5em;
 		}
+		.visual-slider-container-lp{
+			transform: translate(-50%, -40%);
+		}
 	}
 
 	/*reach me*/
