@@ -411,6 +411,18 @@ h2 {
 		.who-container div{
 			font-size: 20px !important;
 		}
+		.visual-slider-text-area-lp h3{
+			font-size: 25px;
+		}
+		.menu-wrapper div{
+			font-size: 45px;
+		}
+		.text-line text{
+			font-size: 35px;
+		}
+		.hamburger svg{
+			height: 2.5em;
+		}
 	}
 
 	/*reach me*/
