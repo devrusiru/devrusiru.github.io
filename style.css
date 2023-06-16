@@ -495,9 +495,8 @@ h2 {
 		text-transform: uppercase;
 		transform: rotate(-103deg);
 		color: #fff;
-		font-weight: bold;
 		z-index: -1;
-		font-family: Raleway;
+		font-family: 'Climate Crisis', cursive;
 	  }
 	  .white {
 		fill: #fff;
