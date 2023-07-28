@@ -181,7 +181,7 @@ $(document).ready(function(){
 $(".uil-instagram").hover(function(){
   $('.i2').toggleClass("animate__animated animate__rubberBand");
   $('.project-out-top').toggleClass("inst");
-  $('.project-out-bottom').toggleClass("inst");
+  $('.project-out-bottom').toggleClass("inst2");
 });
 
 $(".uil-github-alt").hover(function(){
@@ -199,13 +199,31 @@ $(".uil-behance").hover(function(){
 $(".uil-google").hover(function(){
   $('.i5').toggleClass("animate__animated animate__rubberBand");
   $('.project-out-top').toggleClass("gm");
-  $('.project-out-bottom').toggleClass("gm");
+  $('.project-out-bottom').toggleClass("gm2");
 });
 
 $(".uil-linkedin-alt").hover(function(){
   $('.i6').toggleClass("animate__animated animate__rubberBand");
   $('.project-out-top').toggleClass("cm");
   $('.project-out-bottom').toggleClass("cm");
+});
+
+$(".tiktok-icon").hover(function(){
+  $('.i7').toggleClass("animate__animated animate__rubberBand");
+  $('.project-out-top').toggleClass("tt");
+  $('.project-out-bottom').toggleClass("tt2");
+});
+
+$(".uil-youtube").hover(function(){
+  $('.i8').toggleClass("animate__animated animate__rubberBand");
+  $('.project-out-top').toggleClass("yt");
+  $('.project-out-bottom').toggleClass("yt");
+});
+
+$(".uil-whatsapp").hover(function(){
+  $('.i9').toggleClass("animate__animated animate__rubberBand");
+  $('.project-out-top').toggleClass("wa");
+  $('.project-out-bottom').toggleClass("wa");
 });
 
 $(".cv a").hover(function(){
