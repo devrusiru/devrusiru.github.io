@@ -373,6 +373,11 @@ h2 {
 		transition: ease 1s;
 	}
 
+	.inst2{
+		fill: #feda75 ;
+		transition: ease 1s;
+	}
+
 	.git{
 		fill: #171515;
 		transition: ease 1s;
@@ -388,9 +393,43 @@ h2 {
 		transition: ease 1s;
 	}
 
+	.gm2{
+		fill: #db3236;
+		transition: ease 1s;
+	}
+
 	.cm{
 		fill: #0072b1;
 		transition: ease 1s;
+	}
+
+	.tt{
+		fill: #EE1D52;
+		transition: ease 1s;
+	}
+
+	.tt2{
+		fill: #69C9D0;
+		transition: ease 1s;
+	}
+
+	.yt{
+		fill: #CD201F;
+		transition: ease 1s;
+	}
+
+	.wa{
+		fill: #25d366;
+		transition: ease 1s;
+	}
+
+	a.i7 img {
+		width: 45px;
+	}	
+
+	a.i7 {
+		display: flex;
+		align-items: center;
 	}
 
 	@media (max-width:1240px) {
