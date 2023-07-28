@@ -448,7 +448,7 @@ h2 {
 			padding-bottom: 10px;
 		}
 		.who-container div{
-			font-size: 20px !important;
+			font-size: 16px !important;
 		}
 		.visual-slider-text-area-lp h3{
 			font-size: 25px;
@@ -507,7 +507,7 @@ h2 {
 	}
 
 	.who-container div {
-		font-size: 30px;
+		font-size: 20px;
 		letter-spacing: 1.6px;
 		line-height: 1.6;
 		text-align: center;
@@ -516,12 +516,13 @@ h2 {
 		text-shadow: 0px 0px 0.2em #a4a4a4;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
-		font-family: 'Comforter Brush', cursive;
+		font-family: 'Press Start 2P', cursive;
 		font-weight: bold;
 	}
 
 	.cv {
 		text-shadow: 0px 0px 0.2em #22ffe2 !important;
+		padding-top: 30px;
 	}
 
 	.rounded-text.rotating {
