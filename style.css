@@ -513,7 +513,7 @@ h2 {
 		text-align: center;
 		mix-blend-mode: difference;
 		background: #ffffff;
-		text-shadow: 0px 0px 0.2em #a4a4a4;
+		text-shadow: 0px 0px 0.2em #ffffff;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		font-family: 'Press Start 2P', cursive;
