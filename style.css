@@ -512,11 +512,7 @@ h2 {
 		letter-spacing: 1.6px;
 		line-height: 1.6;
 		text-align: center;
-		mix-blend-mode: difference;
-		background: #ffffff;
-		text-shadow: 0px 0px 0.2em #ffffff;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
+		text-shadow: 0px 0px 0.2em #ff0000;
 		font-family: 'Press Start 2P', cursive;
 		font-weight: bold;
 	}
