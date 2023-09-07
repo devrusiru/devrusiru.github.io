@@ -63,6 +63,7 @@ canvas
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+	text-align: center;
   }
   
   a{
@@ -72,7 +73,7 @@ canvas
 
   .menu-wrapper div {
     padding-bottom: 20px;
-    font-family: Aktura-Regular;
+    font-family: 'Caesar Dressing', cursive;
     font-size: 50px;
 	letter-spacing: 1.5px;
 	font-weight: normal;
@@ -102,18 +103,19 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 30px;
     position: relative;
-    right: 100px;
+    /* right: 100px; */
     cursor: default;
     mix-blend-mode: difference;
     background: #22ffe2;
     text-shadow: 0px 0px 2em #22ffe2;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-	transform: skew(5deg, 351deg);
+	/* transform: skew(5deg, 351deg); */
     font-family: 'Comforter Brush', cursive;
 	font-weight: bold;
+	text-align: center;
 }
 
 .hamburger {
@@ -223,10 +225,10 @@ h2 {
 	  }
 	  
 	  .text-line text {
-		font-family: 'Climate Crisis', cursive;
+		font-family: 'Caesar Dressing', cursive;
 		font-weight: normal;
 		font-style: normal;
-		font-size: 40px;
+		font-size: 50px;
 	  }
 	  
 	  @keyframes dash {
@@ -440,16 +442,25 @@ h2 {
 	}
 	
 	@media (max-width:500px) {
+		.rm-wrapper{
+			display: none;
+		  }
+		.rm-wrapper-mob{
+			display: block !important;
+		  }
+		.home_title{
+			font-size: 52px !important;
+		  }
 		img.h1-title {
 			width: 250px;
 		}
 		h2 {
 			font-size: 20px;
-			right: 42px;
+			/* right: 42px; */
 			padding-bottom: 10px;
 		}
 		.who-container div{
-			font-size: 16px !important;
+			font-size: 25px !important;
 		}
 		.visual-slider-text-area-lp h3{
 			font-size: 25px;
@@ -458,7 +469,7 @@ h2 {
 			font-size: 45px;
 		}
 		.text-line text{
-			font-size: 35px;
+			font-size: 45px;
 		}
 		.hamburger svg{
 			height: 2.5em;
@@ -508,12 +519,12 @@ h2 {
 	}
 
 	.who-container div {
-		font-size: 20px;
+		font-size: 40px;
 		letter-spacing: 1.6px;
 		line-height: 1.6;
 		text-align: center;
-		font-family: 'Press Start 2P', cursive;
-		font-weight: bold;
+		font-family: 'Caesar Dressing', cursive;
+		font-weight: normal;
 	}
 
 	.cv {
@@ -571,10 +582,62 @@ h2 {
 	  .coloring {
 		animation: coloring 12s linear infinite;
 	  }
-	  
 
-	
-	
+	  .reachme-container.home {
+		top: 95%;
+		font-size: 28px;
+		display: flex !important;
+		position: fixed;
+	}
+
+	.reachme-container.home a.i7 img {
+		width: 27px;
+	}
+
+	@-webkit-keyframes masked-animation {
+		0% {
+		  background-position: 0 0;
+		}
+		100% {
+		  background-position: -8000px -3000px;
+		}
+	  }
+
+	  .home_title{
+		color: white;
+		font-size: 82px;
+		font-family: 'Caesar Dressing', cursive	;
+		text-align: left;
+	  }
+
+	  .overlay-text{
+		background: rgba(255, 253, 160, 1);
+		background: -webkit-linear-gradient( left, #00ffff 0%, #97fba0 25%, #97b1fb 50%, #00ffff 100%) repeat;
+		-webkit-background-clip: text;
+		-ms-background-clip: text;
+		-moz-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		-ms-text-fill-color: transparent;
+		-moz-text-fill-color: transparent;
+		text-fill-color: transparent;
+		-webkit-animation-name: masked-animation;
+		-webkit-animation-duration: 300s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: linear;
+	  }
+
+	  .rm-wrapper-mob{
+		display: none;
+	  }
+
+	  .body-content__rollig-text {
+		white-space: nowrap;
+		}
+
+	  .rolling-text__text {
+			display: inline-block;
+	 }
 
 	
 		
