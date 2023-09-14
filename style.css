@@ -17,6 +17,9 @@
 		grid-template-columns: 1fr 1fr 1fr;
 		gap: 70px;
 	}
+	.reachme-container.home {
+	    column-gap: 50px;
+	}
 }
 @font-face {
 	font-family: 'Aktura-Regular';
@@ -442,6 +445,9 @@ h2 {
 	}
 	
 	@media (max-width:500px) {
+		.reachme-container.home {
+		    column-gap: 70px;
+		}
 		.rm-wrapper{
 			display: none;
 		  }
