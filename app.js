@@ -231,7 +231,15 @@ $(".cv a").hover(function(){
   $('.project-out-bottom').toggleClass("cpro1");
 });
 
+$("a.surgeglobal").hover(function(){
+  $('.project-out-top').toggleClass("cpro2");
+  $('.project-out-bottom').toggleClass("cpro2");
+});
 
+$("a.sliit-ise").hover(function(){
+  $('.project-out-top').toggleClass("sliit1");
+  $('.project-out-bottom').toggleClass("sliit2");
+});
 
 
 
