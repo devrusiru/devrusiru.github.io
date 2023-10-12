@@ -4,6 +4,9 @@
 	box-sizing: border-box;
 }
 @media screen and (max-width: 768px) {
+	.name-card {
+		left: 50% !important;
+	}
 	 #circle{
 		display: none !important;
 	}
@@ -644,6 +647,33 @@ h2 {
 	  .rolling-text__text {
 			display: inline-block;
 	 }
+
+.name-card {
+		position: absolute;
+		top: 90%;
+		left: 90%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		font-family: 'Caesar Dressing', cursive;
+		color: #ffffff;
+	}
+
+	.name-card img {
+		width: 60px;
+		border-radius: 50%;
+		background: red;
+	}
+
+	.sliit1{
+		fill: #0c4289;
+		transition: ease 1s;
+	}
+
+	.sliit2{
+		fill: #fb913c;
+		transition: ease 1s;
+	}
+
 
 	
 		
