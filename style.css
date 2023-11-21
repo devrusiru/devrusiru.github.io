@@ -449,6 +449,7 @@ h2 {
 
 	a.i7 img {
 		width: 45px;
+		display: flex;
 	}	
 
 	a.i7 {
@@ -463,6 +464,10 @@ h2 {
 	}
 	
 	@media (max-width:500px) {
+		a.i7 img {
+			width: 35px !important;
+			display: flex;
+		}
 		.reachme-container.rm{
 			font-size: 40px !important;
 		}
