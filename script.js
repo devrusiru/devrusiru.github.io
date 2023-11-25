@@ -1484,7 +1484,7 @@ window.addEventListener('keydown', e => {
 function updatePointerDownData (pointer, id, posX, posY) {
     pointer.id = id;
     pointer.down = true;
-    pointer.moved = true;
+    pointer.moved = false;
     pointer.texcoordX = posX / canvas.width;
     pointer.texcoordY = 1.0 - posY / canvas.height;
     pointer.prevTexcoordX = pointer.texcoordX;
@@ -1505,7 +1505,7 @@ function updatePointerMoveData (pointer, posX, posY) {
 }
 
 function updatePointerUpData (pointer) {
-    pointer.down = true;
+    pointer.down = false;
 }
 
 function correctDeltaX (delta) {
