@@ -63,7 +63,7 @@ function pointerPrototype () {
     this.prevTexcoordY = 0;
     this.deltaX = 0;
     this.deltaY = 0;
-    this.down = false;
+    this.down = true;
     this.moved = false;
     this.color = [30, 0, 300];
 }
