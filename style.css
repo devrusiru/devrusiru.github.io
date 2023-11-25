@@ -61,7 +61,7 @@ canvas
 	transition: transform 0.3s ease; /* Add smooth transition effect using transform property */
 	z-index: 3; /* Ensure the circle is above the text */
 	mix-blend-mode: difference;
-	opacity: 0;
+	opacity: 1;
   }
 
   .wrapper{
