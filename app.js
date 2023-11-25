@@ -108,7 +108,7 @@ $(document).ready(function(){
       }
     );
 
-    $(".cv a").hover(
+    $(".cv").hover(
       function(){
         circle.css("transform", "scale(2)");// Scale the circle to 2x size
         circle.css("opacity", "difference");
