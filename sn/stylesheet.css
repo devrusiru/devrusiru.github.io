@@ -38,6 +38,7 @@
   grid-template-columns: 1fr 2fr;
   height: 100vh;
   background: linear-gradient(199deg, #240000, black);
+  overflow: hidden;
 }
 
 .master-wrapper-toggle {
