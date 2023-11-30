@@ -670,6 +670,7 @@ i.uil {
   height: 100vh;
   z-index: 1;
   background: linear-gradient(199deg, #240000, black);
+  cursor: default;
 }
 .loader span {
   color: red;
