@@ -6,6 +6,7 @@
   text-transform: uppercase;
   z-index: 1;
   overflow: hidden;
+  cursor: none !important;
 }
 .hp-text-container {
   position: fixed;
