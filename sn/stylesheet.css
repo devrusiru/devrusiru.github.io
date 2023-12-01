@@ -206,7 +206,7 @@ i.uil {
   margin-left: -1px;
   width: 2px;
   height: 100%;
-  background: black;
+  background: red;
   z-index: 1;
 }
 
@@ -238,8 +238,8 @@ i.uil {
   width: 13px;
   height: 13px;
   border-radius: 50%;
-  border: 2px solid black;
-  background: black;
+  border: 2px solid red;
+  background: red;
   margin-top: 10px;
   z-index: 9999;
   position: absolute;
