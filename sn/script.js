@@ -9,7 +9,7 @@ $(document).ready(function () {
     $(".about-body").show();
     toggleSection(".nav-title.co");
     toggleSection(".nav-title.en");
-    $(".menu-container").scrollTop(0);
+    //$(".menu-container").scrollTop(0);
   });
 
   $(".nav-title.co").click(function () {
@@ -22,7 +22,7 @@ $(document).ready(function () {
     $(".contact-body").show();
     toggleSection(".nav-title.en");
     toggleSection(".nav-title.a");
-    $(".menu-container").scrollTop(0);
+    //$(".menu-container").scrollTop(0);
   });
 
   $(".nav-title.en").click(function () {
@@ -35,7 +35,7 @@ $(document).ready(function () {
     $(".contact-body").hide();
     toggleSection(".nav-title.co");
     toggleSection(".nav-title.a");
-    $(".menu-container").scrollTop(0);
+    //$(".menu-container").scrollTop(0);
   });
 
   $(".nav-title").click(function () {
