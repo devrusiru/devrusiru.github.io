@@ -13,6 +13,10 @@ body {
   background: #0e0e0e;
 }
 
+div#preloader .box {
+  z-index: 0;
+}
+
 a {
   text-decoration: none;
   color: #fff;
