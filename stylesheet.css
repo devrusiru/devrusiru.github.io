@@ -817,15 +817,19 @@ h2.forever-dev {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: grid;
-  justify-content: center;
-  align-items: center;
+  display: flex;
   font-weight: 900;
   height: 100dvh;
   z-index: 1;
   /* background: linear-gradient(199deg, #240000, black); */
   background-color: #0e0e0e;
   cursor: default;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.loader {
+  text-align: center;
 }
 .loader span {
   color: red;
