@@ -46,6 +46,10 @@ a {
   /* background: linear-gradient(199deg, #240000, black); */
   background-color: #0e0e0e;
   transition: all 0.3s ease-in-out;
+  padding-top: env(safe-area-inset-top);
+  padding-right: env(safe-area-inset-right);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
 }
 
 .master-wrapper-toggle {
