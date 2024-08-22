@@ -751,6 +751,9 @@ h2.forever-dev {
 }
 
 @media (max-width: 500px) {
+ .project-item img{
+   filter: grayscale(0%);
+ }
   .gif-section {
     column-count: 1;
   }
