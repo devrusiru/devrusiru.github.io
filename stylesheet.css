@@ -205,7 +205,7 @@ svg.text-line {
   stroke: white;
 }
 
-.master-wrapper:before {
+/* .master-wrapper:before {
     content: "";
     opacity: 1;
     position: fixed;
@@ -220,7 +220,7 @@ svg.text-line {
     100% {
         background-position: -100% 100%;
     }
-}
+} */
 
 @keyframes dash {
   to {
