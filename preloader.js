@@ -1,4 +1,4 @@
-$(".body-wrapper").hide();
+//$(".body-wrapper").hide();
 $(".nav-title-wrappe").hide();
 $(window).on("load", function () {
   // makes sure the whole site is loaded
