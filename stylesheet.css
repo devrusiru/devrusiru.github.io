@@ -28,6 +28,11 @@ a {
   width: fit-content;
 }
 
+.box {
+  position: relative;
+  z-index: 9;
+}
+
 .nav-title {
   font-family: "Montserrat", sans-serif;
   font-size: 190px;
@@ -118,6 +123,7 @@ p.project-technology {
 .menu-container-toggle {
   margin-left: 0%;
   opacity: 1;
+  z-index: 9;
 }
 
 .nav-title-toggle {
@@ -863,6 +869,7 @@ h2.forever-dev {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  z-index: 99;
 }
 .loader {
   text-align: center;
