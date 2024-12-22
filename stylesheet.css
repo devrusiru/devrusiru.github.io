@@ -33,6 +33,10 @@ a {
   z-index: 9;
 }
 
+div#menu {
+    z-index: 9;
+}
+
 .nav-title {
   font-family: "Montserrat", sans-serif;
   font-size: 190px;
