@@ -9,6 +9,24 @@
   cursor: none !important;
 }
 
+.curtain {
+  background: linear-gradient(80deg, #000000, #0e0e0e, #5d0000);
+  background-size: 180% 180%;
+  animation: gradient-animation 30s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 body {
   background: #0e0e0e;
 }
@@ -34,7 +52,7 @@ a {
 }
 
 div#menu {
-    z-index: 9;
+  z-index: 9;
 }
 
 .nav-title {
@@ -188,7 +206,7 @@ h1 {
   top: 0;
   left: 0;
   z-index: 1;
-  background: url(right-arrow.png);
+  background: url(imgs/right-arrow.png);
   transform: rotate(0deg);
   transition: ease-in-out 0.4s all;
 }
@@ -778,9 +796,9 @@ h2.forever-dev {
 }
 
 @media (max-width: 500px) {
- .project-item img{
-   filter: grayscale(0%);
- }
+  .project-item img {
+    filter: grayscale(0%);
+  }
   .gif-section {
     column-count: 1;
   }
