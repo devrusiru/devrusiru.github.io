@@ -9,31 +9,20 @@
   cursor: none !important;
 }
 
-.curtain {
-  background: linear-gradient(80deg, #000000, #0e0e0e, #5d0000);
-  background-size: 180% 180%;
-  animation: gradient-animation 30s ease infinite;
-}
-
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+#tubes-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
 }
 
 body {
   background: #0e0e0e;
 }
 
-div#preloader .box {
-  z-index: 0;
-}
+
 
 a {
   text-decoration: none;
@@ -44,11 +33,6 @@ a {
   bottom: 8%;
   left: 5%;
   width: fit-content;
-}
-
-.box {
-  position: relative;
-  z-index: 9;
 }
 
 div#menu {
@@ -477,65 +461,14 @@ p.download-btn a {
   stroke: red !important;
 }
 
-.box {
-  /* position: fixed;
-	top: 0;
-	transform: rotate(80deg);
-	left: 0; */
-}
 
-.wave {
-  top: -10%;
-  left: 67%;
-  opacity: 0.4;
-  position: fixed;
-  background: red;
-  width: 54%;
-  height: 119%;
-  margin-left: -150px;
-  margin-top: -250px;
-  transform-origin: 50% 48%;
-  border-radius: 43%;
-  animation: drift 70000ms infinite linear;
-}
-
-.wave.-three {
-  animation: drift 75000ms infinite linear;
-  position: fixed;
-  background-color: black;
-}
-
-.wave.-two {
-  animation: drift 30000ms infinite linear;
-  opacity: 0.1;
-  background: black;
-  position: fixed;
-}
-
-.box:after {
-  content: "";
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 11;
-  transform: translate3d(0, 0, 0);
-}
 
 h2.forever-dev {
   padding-bottom: 50px;
   font-size: 20px;
 }
 
-@keyframes drift {
-  from {
-    transform: rotate(0deg);
-  }
-  from {
-    transform: rotate(360deg);
-  }
-}
+
 
 /*LOADING SPACE*/
 
@@ -884,9 +817,7 @@ h2.forever-dev {
   display: flex;
   font-weight: 900;
   height: 100dvh;
-  z-index: 1;
-  /* background: linear-gradient(199deg, #240000, black); */
-  background-color: #0e0e0e;
+  background-color: transparent;
   cursor: default;
   align-items: center;
   flex-direction: column;
