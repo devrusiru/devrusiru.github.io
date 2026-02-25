@@ -758,13 +758,13 @@ h2.forever-dev {
         height: 65%;
     }
     .nav-title {
-        font-size: 32px;
-        line-height: 42px;
+        font-size: 40px;
+        line-height: 48px;
         letter-spacing: -2px;
     }
     .nav-title:hover {
-        font-size: 32px;
-        line-height: 42px;
+        font-size: 40px;
+        line-height: 48px;
         letter-spacing: -2px;
         font-weight: 900 !important;
     }
