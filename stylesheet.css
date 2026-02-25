@@ -541,9 +541,9 @@ p.cs-location-tag {
     transition: ease-in-out 0.3s all;
 }
 
-.logo-active {
+/* .logo-active {
     stroke: red !important;
-}
+} */
 
 h2.forever-dev {
     padding-bottom: 50px;
