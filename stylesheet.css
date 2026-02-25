@@ -65,10 +65,10 @@ a.cs-email-link {
 
 .nav-title {
     font-family: "Montserrat", sans-serif;
-    font-size: 190px;
-    line-height: 145px;
+    font-size: 140px;
+    line-height: 120px;
     font-weight: 900;
-    letter-spacing: -18px;
+    letter-spacing: -12px;
     margin: 0;
     transition: ease-in-out 0.2s all;
     cursor: pointer;
