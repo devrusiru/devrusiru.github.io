@@ -838,6 +838,7 @@ h2.forever-dev {
     }
     .project-item img {
         filter: grayscale(0%);
+        border-radius: 14px;
     }
     .gif-section {
         column-count: 1;
@@ -859,7 +860,7 @@ h2.forever-dev {
     }
     .project-item p.project-link,
     .project-item p.project-technology {
-        font-weight: 900;
+        font-weight: 600;
     }
     p.project-link {
         font-size: 20px;
